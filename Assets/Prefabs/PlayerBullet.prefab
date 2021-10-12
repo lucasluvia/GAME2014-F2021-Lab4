@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5236589074466653484}
   - component: {fileID: 5236589074466653487}
   m_Layer: 0
-  m_Name: EnemyBullet
+  m_Name: PlayerBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,10 +74,10 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1391fb2fe9fad4b4d8fd6bbf35b6863c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6c6a7e5ad5734494b994eb1e6c4284b8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
-  m_FlipY: 0
+  m_FlipY: 1
   m_DrawMode: 0
   m_Size: {x: 0.12, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
@@ -102,14 +102,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.12, y: 0.32}
+    oldSize: {x: 0.1, y: 0.26}
     newSize: {x: 0.12, y: 0.32}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.12, y: 0.32}
+  m_Size: {x: 0.1, y: 0.275}
   m_EdgeRadius: 0
 --- !u!114 &5236589074466653487
 MonoBehaviour:
@@ -127,4 +127,4 @@ MonoBehaviour:
   bulletBounds:
     min: 5.5
     max: -5.5
-  direction: 2
+  direction: 0
