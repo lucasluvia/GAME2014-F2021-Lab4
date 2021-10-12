@@ -193,7 +193,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6fa1bb1df8d6bc341ac1c100a03bc1dd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletNumber: 0
+  enemyBulletNumber: 0
+  playerBulletNumber: 0
 --- !u!114 &243545234
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -411,10 +412,6 @@ PrefabInstance:
     - target: {fileID: 5208948563721239622, guid: ffa7c2eb4e673ca4e857d18c28097bb5, type: 3}
       propertyPath: m_Name
       value: Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 5208948563721239622, guid: ffa7c2eb4e673ca4e857d18c28097bb5, type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ffa7c2eb4e673ca4e857d18c28097bb5, type: 3}

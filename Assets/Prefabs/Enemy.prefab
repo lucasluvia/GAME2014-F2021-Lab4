@@ -161,5 +161,4 @@ MonoBehaviour:
     min: -2.1
     max: 2.1
   bulletSpawn: {fileID: 2954265119892214736}
-  bulletPrefab: {fileID: 5236589074466653480, guid: cf819770eb3cc7d4c90633b785e1b30f, type: 3}
   frameDelay: 10
